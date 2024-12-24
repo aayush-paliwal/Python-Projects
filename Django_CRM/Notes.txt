@@ -1,0 +1,15 @@
+// webapp 
+- To create this run: django-admin startapp webapp
+- This is the folder where I have all the logic for the app like urls, models.
+- In order to use this webapp we need to configure it in settings.py file in crm folder
+
+
+- To run django server run: python manage.py runserver
+- To run migration: python manage.py migrate
+- To create superuser: python manage.py createsuperuser
+  Now with that we can go to the /admin route in the browser
+
+
+- By default urls are served from the urls.py file in the crm folder. But we want them to be served from webapp urls.py
+  file. So for that we need make some change in crm urls.py file
+- To use CSS, JS we need to setup static files. Create static folder in crm and specify its location in settings.py file.
