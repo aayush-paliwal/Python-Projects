@@ -5,6 +5,10 @@
 
 }
 
+.outer {
+    margin-top: 1rem;
+}
+
 .message-text{
 
     color: white;
