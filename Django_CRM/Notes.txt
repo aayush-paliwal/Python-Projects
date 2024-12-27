@@ -13,3 +13,13 @@
 - By default urls are served from the urls.py file in the crm folder. But we want them to be served from webapp urls.py
   file. So for that we need make some change in crm urls.py file
 - To use CSS, JS we need to setup static files. Create static folder in crm and specify its location in settings.py file.
+
+
+// Models in django
+- To create migration:
+  python manage.py makemigrations
+  
+- To push migration information to sqlite db;
+  python manage.py migrate
+
+- After we created our model we need to register it at admin.py in order to actually use it.
